@@ -5,7 +5,7 @@ services:
         environment:
             OPENAI_API_KEY: "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"
             OPENAI_GPT_MODEL: "gpt-4"
-            PREFIX_ENABLED: ""
+            PREFIX_ENABLED: "false"
         volumes:
             - session-data:/app/session
 volumes:
